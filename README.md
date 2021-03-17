@@ -33,6 +33,19 @@ public class Employee extends PersonJava{
       public int getemployeeNum(){
       return employeeNum;
       }
+      
+      package person.java;
+
+public class PersonJava {
+public class Person{ 
+    private String name; 
+    public void setname(String name){ 
+        this.name=name; 
+    } public String getname()
+    { return name; 
+    } 
+}
+}
       public void setbasicSalary(double basSalary){
       this.basicSalary=basSalary;
       }
