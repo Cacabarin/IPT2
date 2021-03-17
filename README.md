@@ -6,6 +6,7 @@ public class Manager extends Employee {
     public void setallowance(int allowances){
     this.allowance=allowances;    
     }
+    
     public int getallowace(){
     return allowance;
     }
