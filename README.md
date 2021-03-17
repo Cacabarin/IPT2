@@ -10,3 +10,10 @@ public class Manager extends Employee {
     return allowance;
     }
 }
+
+package person.java;
+
+public class Secretary extends Employee {
+    
+    
+}
