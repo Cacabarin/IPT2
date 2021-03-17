@@ -1,35 +1,20 @@
 package person.java;
 
-public class Manager extends Employee {
-        private int allowance;
-
-    public void setallowance(int allowances){
-    this.allowance=allowances;    
-    }
-    public int getallowace(){
-    return allowance;
-    }
-}
-
-package person.java;
-
-public class Secretary extends Employee {
+    public class Customer extends PersonJava {
     
-    
-}
-package person.java;
+    private String address;
+    private double budget;
 
-public class SalesPerson extends Employee {
-        private double commission;
-
-    public void setcommission(double commissionn){
-    this.commission=commissionn;
-    }
-    public double getcommission(){
-    return commission;
-    }
-
-    public void takeOrder(){
-        System.out.println("Can i take your Orders Ma'am/Sir?");
-    }
+    public void setaddress(String addr){
+      this.address=addr;
+      }
+      public String getaddress(){
+      return address;
+      }
+      public void setbudget(double budgett){
+      this.budget=budgett;
+      }
+      public double getbudget(){
+      return budget;
+      }
 }
