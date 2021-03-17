@@ -4,6 +4,7 @@ package person.java;
     
     private String address;
     private double budget;
+    
 
     public void setaddress(String addr){
       this.address=addr;
