@@ -19,3 +19,24 @@ package person.java;
       return budget;
       }
 }
+
+package person.java;
+
+
+public class Employee extends PersonJava{
+        private int employeeNum;
+    private double basicSalary;
+
+    public void setemployeeNum(double empnumber){
+      this.employeeNum=(int) empnumber;
+      }
+      public int getemployeeNum(){
+      return employeeNum;
+      }
+      public void setbasicSalary(double basSalary){
+      this.basicSalary=basSalary;
+      }
+      public double getbasicSalary(){
+      return basicSalary;
+      }
+}
